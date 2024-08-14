@@ -5,7 +5,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { Instagram, Twitter } from "lucide-react";
+import { Instagram, Twitter, Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { ReactComponentElement } from "react";
@@ -37,14 +37,15 @@ export default function Home() {
 const socials: socialsStruct[] = [
   {
     icon: Instagram,
-    link: "https://www.instagram.com/in/kentdonovan/",
+    link: "https://www.instagram.com/kentdonovan/",
     tooltip: "Instagram",
   },
   {
     icon: Twitter,
-    link: "https://www.x.com/in/kentdonovan/",
+    link: "https://www.x.com/kentdonovan/",
     tooltip: "Twitter",
   },
+  { icon: Github, link: "https://www.github.com/kenttd", tooltip: "Github" },
 ];
 
 type socialsStruct = {
