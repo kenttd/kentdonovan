@@ -6,8 +6,6 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Instagram, Twitter, Github } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
 import React, { ReactComponentElement } from "react";
 export default function Home() {
   return (
@@ -17,11 +15,11 @@ export default function Home() {
           <TooltipProvider key={social.tooltip}>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Link href={social.link}>
+                <a href={social.link} rel="author" target="_blank">
                   <Button variant="default">
                     {React.createElement(social.icon)}
                   </Button>
-                </Link>
+                </a>
               </TooltipTrigger>
               <TooltipContent>
                 <p>{social.tooltip}</p>
