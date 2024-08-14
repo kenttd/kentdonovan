@@ -35,12 +35,12 @@ export default function Home() {
 const socials: socialsStruct[] = [
   {
     icon: Instagram,
-    link: "https://www.instagram.com/kentdonovan/",
+    link: "https://www.instagram.com/kent_td/",
     tooltip: "Instagram",
   },
   {
     icon: Twitter,
-    link: "https://www.x.com/kentdonovan/",
+    link: "https://www.x.com/kent_td/",
     tooltip: "Twitter",
   },
   { icon: Github, link: "https://www.github.com/kenttd", tooltip: "Github" },
